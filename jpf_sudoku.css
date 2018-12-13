@@ -6,17 +6,24 @@
    Case Problem 2
 
    Sudoku Style Sheet
-   Author: 
-   Date:   
+   Author: Anthony Arias
+   Date:   12/12/18
 
    Filename:         jpf_sudoku.css
 
 */
 
 /* Table Styles */
+table {
+    border-collapse: collapse;
+    margin: 0px 0px auto;
+}
+
+td {
+    border: 5px outset gray;
+    widows: 33.3%;
+}
 
 
 
 /* Inner Table Styles */
-
-
