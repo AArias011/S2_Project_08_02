@@ -14,6 +14,7 @@
 */
 
 /* Table Styles */
+/* This code gives the table with a class of spuzzle a border collapse of collapse, a top and bottom margin of 0px, a left and right margin of aut, and last a width of 90%. */
 table.spuzzle {
     border-collapse: collapse;
     margin-top: 0px;
@@ -23,11 +24,13 @@ table.spuzzle {
     width: 90%;
 }
 
+/* This code gives every table data cell a 5 px outset grey border and a width of 33.3%. */
 td {
     border: 5px outset gray;
     width: 33.3%;
 }
 
+/* This code gives every table header a font color of gray, a padding-right of 10px and a padding-bottom of 10px. */
 th {
     color: gray;
     padding-right: 10px;
@@ -37,11 +40,28 @@ th {
 
 
 /* Inner Table Styles */
+/* This code gives the table with a class of subTable a border collapse of collapse and a width of 100%. */
 table.subTable {
     border-collapse: collapse;
     width: 100%;
 }
 
-table.subTable {
+/* This code gives every table data cell within the table with the class of subTable a boxshadow, border, font color, height and lastly it aligns in to the middle of the cell. */
+table.subTable td {
     box-shadow: 0px 0px 15px inset;
+    border: 1px solid black;
+    color: blue;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center
+}
+
+/* This code sets every table data cell nested within the table data cell with the class of goldBox to have a certain background color. */
+td.goldBox td {
+    background-color: rgb(228, 199, 42);
+}
+
+/* This code sets every table data cell nested within the table data cell with the class of greenBox to have a certain background color. */
+td.greenBox td {
+    background-color: rgb(203, 229, 130);
 }
